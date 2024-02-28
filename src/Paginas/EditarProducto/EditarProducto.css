@@ -1,0 +1,66 @@
+.EditarProducto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.Producto{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 280px;
+    width: 240px;
+    overflow: hidden;
+    color: black;
+    
+}
+
+
+
+.Producto img{
+    width: 240px;
+    height: 135px;
+}
+
+.BtnEditar{
+    width: 70%;
+    margin: 10px auto;
+    background-color: rgb(215, 91, 46);
+}
+
+a .atras{
+    width: 200px;
+}
+
+.editar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: rgb(54, 52, 52);
+    position: fixed;
+    top: 50px;
+    padding-bottom: 35px;
+}
+
+
+.editar input{
+    width: 80%;
+    margin: 20px auto;
+    padding: 8px 0;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(85, 84, 84);
+}
+
+
+.editar button{
+    margin: 10px auto;
+    width: 80%;
+}
+
+

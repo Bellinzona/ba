@@ -1,0 +1,9 @@
+.Principal{
+    display: flex;
+    flex-direction: column;
+
+}
+
+a button{
+    margin: 30px 0;
+}

@@ -1,0 +1,86 @@
+.PedidosClientes{
+    display: flex;
+    flex-direction: column;
+    min-height:  100vh;
+    margin: auto;
+
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: auto;
+
+}
+
+
+.inputs input{
+    margin: 0px 5px;
+    padding: 15px 20px;
+    height: 10px;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.inputs button{
+    height: 10px;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+
+.Pedidos{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+}
+
+.PedidosLugar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(75, 75, 75);
+    border-radius: 15px;
+    background-color: rgb(39, 38, 38);
+    margin: 20px 0;
+}
+
+.PedidosClientes p{
+    font-size: 0.9rem;
+}
+.Completado{
+    background-color: rgb(37, 151, 37);
+    font-size: 0.9rem;
+    margin-top: 20px;
+    width: 50%;
+
+}
+
+.Eliminarboton{
+    background-color: rgb(189, 19, 19);
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+
+}
+
+.entregados{
+    margin: 0;
+    padding: 10px 0;
+}
+
+a .atras{
+    margin: 20px 0;
+    padding: 10px 0;
+    width: 99%;
+}
+
+.Estado{
+    color: rgb(56, 199, 56);
+}

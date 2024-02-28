@@ -1,0 +1,47 @@
+.inputsdeProducto{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.437);
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 70px 15px;
+    width: 85%;
+  }
+  
+  .form .inp{
+    width: 80%;
+    margin: 20px;
+    border-style: none;
+    background-color: rgb(71, 70, 70);
+    padding: 14px;
+    border-radius: 5px;
+  }
+  
+  
+.añadirProductoBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(50, 210, 50);
+    border-style: none;
+    margin: 20px 0;
+    margin-bottom: 10px;
+    padding: 12px 25px;
+    border-radius: 10px;
+    width: 80%;
+  }
+
+  .atras{
+    margin: 40px 0;
+  }
