@@ -66,12 +66,12 @@ export const EditarProducto = () => {
                     <h4>Editar Producto</h4>
 
                     <div>
-                        <input type='text' placeholder='Nombre' defaultValue={productos[editIndex].Nombre}  onChange={(e) => setEditNombre(e.target.value)}/>
-                        <input type='text' placeholder='Precio' defaultValue={productos[editIndex].Precio}  onChange={(e) => setEditPrecio(e.target.value)}/>
+                        <input type='text' placeholder='Nombre' defaultValue={productos[editIndex].Nombre} className='inputs__editar'  onChange={(e) => setEditNombre(e.target.value)}/>
+                        <input type='text' placeholder='Precio' defaultValue={productos[editIndex].Precio} className='inputs__editar'  onChange={(e) => setEditPrecio(e.target.value)}/>
 
-                        <button onClick={() => handleEditarClick(editIndex)}>Editar</button>
+                        <button onClick={() => handleEditarClick(editIndex)} className='inputs__editar'>Editar</button>
 
-                        <button onClick={handleCancelarEdicion}>Cancelar</button>
+                        <button onClick={handleCancelarEdicion} className='inputs__editar'>Cancelar</button>
                     </div>
                 </div>
             )}
