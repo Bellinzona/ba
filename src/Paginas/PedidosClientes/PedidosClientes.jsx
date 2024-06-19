@@ -33,6 +33,8 @@ export const PedidosClientes = () => {
     
         setPagosFiltrados(filtrados);
     }, [inputValue, Pagos]);
+
+    console.log(Pagos)
     
     
 
@@ -77,12 +79,12 @@ export const PedidosClientes = () => {
                     
                     <div className='PedidosLugar'>
 
-                        <p>Nombre: {item.Nombre} {item.Apellido}</p>
-                        <p>Productos: {item.Producto}</p>
-                        <p>Local: {item.Local}</p>
-                        <p>{item.Horario}</p>
+                        <p>Nombre: {item.nombre} {item.apellido}</p>
+                        <p>Productos: {item.description}</p>
+                        <p>Local: {item.local}</p>
+                        <p>{item.horario}</p>
                         <p>telefono: {item.telefono}</p>
-                        <p>Id: {item.IdCompra}</p>
+                        <p>Id: {item.id}</p>
                         {item.estado && <p className='Estado'>{item.estado}</p>}
 
                         <button className='Completado' onClick={() => marcarEntregado(item.id)}>Pedido Completado</button>

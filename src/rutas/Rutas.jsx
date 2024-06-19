@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
 import { Home } from '../Paginas/Home/Home'
 import { PedidosClientes } from '../Paginas/PedidosClientes/PedidosClientes'
 import { EditarProducto } from '../Paginas/EditarProducto/EditarProducto'
@@ -8,7 +8,7 @@ import { AñadirProducto } from '../Paginas/AñadirProducto/AñadirProducto'
 
 export const Rutas = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
 
     <Routes>
 
@@ -36,6 +36,6 @@ export const Rutas = () => {
     
     
     
-    </BrowserRouter>
+    </HashRouter>
   )
 }
